@@ -101,7 +101,7 @@ const OtherPage = () => {
 
   return (
     <div>
-      <h2>Login Page </h2>
+      <h2>Login Page</h2>
       <Formik
         initialValues={{ name: user?.name || '', password: '' }}
         validationSchema={validationSchema}
